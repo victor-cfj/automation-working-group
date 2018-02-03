@@ -1,0 +1,106 @@
+{
+	"data_type": "CVE",
+	"data_format": "MITRE",
+	"data_version": "4.0",
+	"CVE_data_meta": {
+		"ID": "CVE-YYYY-NNNNNN",
+		"ASSIGNER": "Example email address"
+	},
+	"affects": {
+		"vendor": {
+			"vendor_data": [
+				{
+					"vendor_name": "Example corp.",
+					"product": {
+						"product_data": [
+							{
+								"product_name": "Example product",
+								"version": {
+									"version_data": [
+										{
+											"version_value": "1.0"
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"problemtype":{
+		"problemtype_data":[
+			{
+				"description":[
+					{
+						"lang": "string ISO 639-2",
+						"value":"string description of problem_type"
+					}
+				]
+			}
+		]
+	},
+	"references":{
+		"reference_data":[
+			{
+				"url":"string for url location"
+			}
+		]
+	},
+	"description":{
+		"description_data":[
+			{
+				"lang": "string ISO 639-2",
+				"value":"string description of vulnerability"
+			}
+		]
+	},
+  "service": 	{
+	  "service_data": [
+				{
+				"service_name"		         : “Some application”, 
+				“version”		               : “1.1.2”, 
+				“CodeIntroducedOn”         : “DATE-TIMESTAMP”, 
+				“InfosecNotificationOn”	   : “DATE-TIMESTAMP”,
+				“DevWorkStartedOn”	       : “DATE-TIMESTAMP”,
+				“DevWorkCompletedOn”	     : “DATE-TIMESTAMP”,
+				“DeploymentWorkStartedOn”  : “DATE-TIMESTAMP”,
+				“DeploymentWorkCompletedOn”: “DATE-TIMESTAMP” 
+ 				}
+			]
+		},
+  "timeline": {
+  	“timeline_data": [
+				{
+				"vulnerableFrom"		  : “DATE-TIMESTAMP”, 
+				“vulnerableTo”		  : “DATE-TIMESTAMP” 
+ 				}
+			]
+		},
+  "configuration": {
+  	“configuration_data": 	[
+					{
+				"configText"		  : “Service A is vulnerable if this configuration A is set” 
+ 					}
+				]
+		},
+  "impact": {
+	"cvssv3":{
+		"BM": 	[
+				{
+				"AV": "A", 
+				“AC”: “H”, 
+				“PR”: “H”, 
+				“UI”: “R”,
+				“S” : “U”,
+				“C” : “H”,
+				“I” : “H”,
+				“A” : “H”,
+				“Score”: “6.1”
+ 				}
+			]
+		}
+	},
+
+}
