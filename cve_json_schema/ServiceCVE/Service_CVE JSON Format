@@ -56,38 +56,38 @@
 			}
 		]
 	},
-  "service": 	{
-	  "service_data": [
-				{
-				"service_name"		         : “Some application”, 
-				“version”		               : “1.1.2”, 
-				“CodeIntroducedOn”         : “DATE-TIMESTAMP”, 
-				“InfosecNotificationOn”	   : “DATE-TIMESTAMP”,
-				“DevWorkStartedOn”	       : “DATE-TIMESTAMP”,
-				“DevWorkCompletedOn”	     : “DATE-TIMESTAMP”,
-				“DeploymentWorkStartedOn”  : “DATE-TIMESTAMP”,
-				“DeploymentWorkCompletedOn”: “DATE-TIMESTAMP” 
- 				}
-			]
-		},
-  "timeline": {
-  	“timeline_data": [
-				{
-				"vulnerableFrom"		  : “DATE-TIMESTAMP”, 
-				“vulnerableTo”		  : “DATE-TIMESTAMP” 
- 				}
-			]
-		},
-  "configuration": {
-  	“configuration_data": 	[
+  	"service": {
+		"service_data": [
 					{
-				"configText"		  : “Service A is vulnerable if this configuration A is set” 
+					"service_name"		   : “Some application”, 
+					“version”		   : “1.1.2”, 
+					“CodeIntroducedOn”         : “DATE-TIMESTAMP”, 
+					“InfosecNotificationOn”	   : “DATE-TIMESTAMP”,
+					“DevWorkStartedOn”	   : “DATE-TIMESTAMP”,
+					“DevWorkCompletedOn”	   : “DATE-TIMESTAMP”,
+					“DeploymentWorkStartedOn”  : “DATE-TIMESTAMP”,
+					“DeploymentWorkCompletedOn”: “DATE-TIMESTAMP” 
  					}
-				]
-		},
-  "impact": {
-	"cvssv3":{
-		"BM": 	[
+		]
+	},
+  	"timeline": {
+  		“timeline_data": [
+					{
+					"vulnerableFrom"	: “DATE-TIMESTAMP”, 
+					“vulnerableTo”		: “DATE-TIMESTAMP” 
+ 					}
+		]
+	},
+  	"configuration": {
+  		“configuration_data": [
+						{
+						"configText"		  : “Service A is vulnerable if this configuration A is set” 
+ 						}
+		]
+	},
+ 	"impact": {
+		"cvssv3": {
+			"BM": [
 				{
 				"AV": "A", 
 				“AC”: “H”, 
