@@ -61,12 +61,6 @@
 					{
 					"service_name"		   : “Some application”, 
 					“version”		   : “1.1.2”, 
-					}
-		],
-		"subservice_data": [
-					{
-					"subservice_name"		:	"Some subservice",
-					"version"			:	"1.2.4",
 					“CodeIntroducedOn”         	:	“DATE-TIMESTAMP”, 
 					“InfosecNotificationOn”	   	: 	“DATE-TIMESTAMP”,
 					“DevWorkStartedOn”	   	: 	“DATE-TIMESTAMP”,
@@ -75,6 +69,7 @@
 					“DeploymentWorkCompletedOn”	: 	“DATE-TIMESTAMP” 
 					}
 		]
+		
 	},
   	"timeline": {
   		“timeline_data": [
