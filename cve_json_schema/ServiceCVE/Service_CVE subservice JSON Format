@@ -65,7 +65,7 @@
 		],
 		"subservice_data": [
 					{
-					"subservice_name"		:	"Some subservice",
+					"subservice_name"		:	"Some subservice supporting the application",
 					"version"			:	"1.2.4",
 					“CodeIntroducedOn”         	:	“DATE-TIMESTAMP”, 
 					“InfosecNotificationOn”	   	: 	“DATE-TIMESTAMP”,
