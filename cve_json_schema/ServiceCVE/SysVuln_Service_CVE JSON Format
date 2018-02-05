@@ -80,23 +80,7 @@
 						"configText"		  : “Service A is vulnerable if this configuration A is set” 
  						}
 		]
-	},
- 	"impact": {
-		"cvssv3": {
-			"BM": [
-				{
-				"AV": "A", 
-				“AC”: “H”, 
-				“PR”: “H”, 
-				“UI”: “R”,
-				“S” : “U”,
-				“C” : “H”,
-				“I” : “H”,
-				“A” : “H”,
-				“Score”: “6.1”
- 				}
-			]
-		}
-	},
+	}
+ 	
 
 }
